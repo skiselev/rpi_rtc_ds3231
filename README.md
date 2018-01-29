@@ -1,4 +1,4 @@
-# rpi_rtc_ds3231
+# RPi DS3231 RTC
 Maxim DS3231 Based RTC Module for Raspberry Pi
 
 ## Introduction
@@ -14,13 +14,13 @@ This is a real-time clock (RTC) module for Raspberry Pi and Raspberry Pi Zero. T
 
 ### Bill of Materials
 
-[RPi RTC project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=eede7ef873) - View and order all components except of the PCB.
+[RPi DS3231 RTC project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=eede7ef873) - View and order all components except of the PCB.
 
-[RPi RTC on OSH Park](https://oshpark.com/shared_projects/tu7lVnCo) - View and order the PCB.
+[RPi DS3231 RTC on OSH Park](https://oshpark.com/shared_projects/tu7lVnCo) - View and order the PCB.
 
 Component type     | Reference | Description                       | Quantity | Possible sources and notes 
 ------------------ | --------- | --------------------------------- | -------- | --------------------------
-PCB                |           | RPi RTC PCB - Version 1.0         | 1        | Order from [OSH Park](https://oshpark.com/shared_projects/tu7lVnCo)
+PCB                |           | RPi DS3231 RTC PCB - Version 1.0  | 1        | Order from [OSH Park](https://oshpark.com/shared_projects/tu7lVnCo)
 Integrated Circuit | U1        | Maxim DS3231                      | 1        | Mouser [700-DS3231S#T&R-](https://www.mouser.com/ProductDetail/700-DS3231S%23TR-)
 Capactior          | C1        | 0.1uF, 0603                       | 6        | Mouser [77-VJ0603Y104JXJPBC](https://www.mouser.com/ProductDetail/77-VJ0603Y104JXJPBC)
 Resistor           | R1        | 10 kohm, 0603                     | 1        | Mouser [71-CRCW060310K0FKEB](https://www.mouser.com/ProductDetail/71-CRCW060310K0FKEB)
@@ -32,7 +32,7 @@ Battery            | BT1       | CR2032                            | 1        | 
 
 ### Raspbian Configuration
 
-The following steps assume that you have a fairly new Rapbian distribution installed and running on your Rapsberry Pi, and that DS3231 RTC module is plugged into the Raspberry Pi.
+The following steps assume that you have a fairly new Rapbian distribution installed and running on your Rapsberry Pi, and that RPi DS3231 RTC module is plugged into the Raspberry Pi.
 
 #### Enable I2C Support
 
