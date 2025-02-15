@@ -68,7 +68,7 @@ Run `i2cdetect -y 1` command and verify that the I2C device is detected at addre
 
 Open `/boot/config.txt` in your favorite editor (nano, vi) as root. For example:
 
-    $ sudo nano /boot/config.txt
+    $ sudo nano /boot/firmware/config.txt
 
 Add the following lines at the end of the file:
 
