@@ -90,6 +90,11 @@ And comment out the following lines:
     # exit 0
     #fi
 
+Also omment the following line(s)
+
+    #/sbin/hwclock --rtc=$dev --systz --badyear
+    #/sbin/hwclock --rtc=$dev --systz
+
 Save the file, and reboot the system
 
 #### Setting and Reading the RTC time from Command Line
