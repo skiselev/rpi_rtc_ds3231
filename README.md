@@ -66,7 +66,7 @@ Run `i2cdetect -y 1` command and verify that the I2C device is detected at addre
 
 #### Enable Kernel Support for DS3231 RTC
 
-Open `/boot/config.txt` in your favorite editor (nano, vi) as root. For example:
+Open `/boot/firmware/config.txt` in your favorite editor (nano, vi) as root. For example:
 
     $ sudo nano /boot/firmware/config.txt
 
@@ -90,7 +90,7 @@ And comment out the following lines:
     # exit 0
     #fi
 
-Also omment the following line(s)
+Also comment the following line(s):
 
     #/sbin/hwclock --rtc=$dev --systz --badyear
     #/sbin/hwclock --rtc=$dev --systz
