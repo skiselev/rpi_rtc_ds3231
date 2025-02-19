@@ -68,7 +68,7 @@ Run `i2cdetect -y 1` command and verify that the I2C device is detected at addre
 
 Open `/boot/config.txt` in your favorite editor (nano, vi) as root. For example:
 
-    $ sudo nano /boot/config.txt
+    $ sudo nano /boot/firmware/config.txt
 
 Add the following lines at the end of the file:
 
@@ -89,6 +89,11 @@ And comment out the following lines:
     #if [ -e /run/systemd/system ] ; then
     # exit 0
     #fi
+
+Also omment the following line(s)
+
+    #/sbin/hwclock --rtc=$dev --systz --badyear
+    #/sbin/hwclock --rtc=$dev --systz
 
 Save the file, and reboot the system
 
